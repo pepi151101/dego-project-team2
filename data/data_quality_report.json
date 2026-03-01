@@ -1,0 +1,85 @@
+{
+    "meta": {
+        "project": "NovaCred Credit Application Governance Audit",
+        "notebook": "Data-Quality-01.ipynb",
+        "audit_date": "2026-03-01",
+        "generated_at": "2026-03-01 20:47:43",
+        "raw_file": "raw_credit_applications.json",
+        "clean_file": "cleaned_credit_applications.csv"
+    },
+    "summary": {
+        "raw_records": 502,
+        "duplicate_id_removed": 2,
+        "clean_records": 500,
+        "issues_catalogued": 11,
+        "output_columns": 29
+    },
+    "issues": [
+        {
+            "issue": "#1 — Duplicate Records (_id)",
+            "count": 2,
+            "dimension": "Uniqueness",
+            "fix": "keep=first dedup"
+        },
+        {
+            "issue": "#2 — Inconsistent Gender Coding",
+            "count": 111,
+            "dimension": "Consistency",
+            "fix": "M→Male, F→Female via lookup dict"
+        },
+        {
+            "issue": "#3 — Income as Text",
+            "count": 8,
+            "dimension": "Validity / Type",
+            "fix": "pd.to_numeric(errors=coerce)"
+        },
+        {
+            "issue": "#4 — Missing Income",
+            "count": 5,
+            "dimension": "Completeness",
+            "fix": "Median imputation + income_imputed flag"
+        },
+        {
+            "issue": "#5 — Negative Credit History",
+            "count": 2,
+            "dimension": "Validity",
+            "fix": "abs() applied"
+        },
+        {
+            "issue": "#6 — DTI Ratio > 1.0",
+            "count": 1,
+            "dimension": "Validity",
+            "fix": "Divided by 10"
+        },
+        {
+            "issue": "#7 — Mixed Date Formats",
+            "count": 161,
+            "dimension": "Consistency",
+            "fix": "Multi-format parser → ISO 8601"
+        },
+        {
+            "issue": "#8 — Missing Date of Birth",
+            "count": 4,
+            "dimension": "Completeness",
+            "fix": "Flag only — no PII fabrication"
+        },
+        {
+            "issue": "#9 — Missing Email",
+            "count": 7,
+            "dimension": "Completeness",
+            "fix": "Flag only — no PII fabrication"
+        },
+        {
+            "issue": "#10 — Missing SSN",
+            "count": 4,
+            "dimension": "Completeness",
+            "fix": "Flag only — no PII fabrication"
+        },
+        {
+            "issue": "#11 — Duplicate / Conflicting SSN",
+            "count": 4,
+            "dimension": "Uniqueness",
+            "fix": "Classified A/B/C + ssn_conflict flag; Cases B/C escalated"
+        }
+    ]
+}
