@@ -3,7 +3,7 @@
         "project": "NovaCred Credit Application Governance Audit",
         "notebook": "Data-Quality-01.ipynb",
         "audit_date": "2026-03-01",
-        "generated_at": "2026-03-01 20:47:43",
+        "generated_at": "2026-03-05 09:21:52",
         "raw_file": "raw_credit_applications.json",
         "clean_file": "cleaned_credit_applications.csv"
     },
@@ -12,7 +12,7 @@
         "duplicate_id_removed": 2,
         "clean_records": 500,
         "issues_catalogued": 11,
-        "output_columns": 29
+        "output_columns": 27
     },
     "issues": [
         {
@@ -71,7 +71,7 @@
         },
         {
             "issue": "#10 — Missing SSN",
-            "count": 4,
+            "count": 5,
             "dimension": "Completeness",
             "fix": "Flag only — no PII fabrication"
         },
