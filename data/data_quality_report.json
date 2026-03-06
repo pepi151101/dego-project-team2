@@ -3,7 +3,7 @@
         "project": "NovaCred Credit Application Governance Audit",
         "notebook": "Data-Quality-01.ipynb",
         "audit_date": "2026-03-01",
-        "generated_at": "2026-03-05 09:34:02",
+        "generated_at": "2026-03-06 11:45:26",
         "raw_file": "raw_credit_applications.json",
         "clean_file": "cleaned_credit_applications.csv"
     },
@@ -12,7 +12,7 @@
         "duplicate_id_removed": 2,
         "clean_records": 500,
         "issues_catalogued": 15,
-        "output_columns": 37
+        "output_columns": 34
     },
     "issues": [
         {
