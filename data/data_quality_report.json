@@ -3,7 +3,7 @@
         "project": "NovaCred Credit Application Governance Audit",
         "notebook": "Data-Quality-01.ipynb",
         "audit_date": "2026-03-01",
-        "generated_at": "2026-03-06 11:45:26",
+        "generated_at": "2026-03-07 15:00:02",
         "raw_file": "raw_credit_applications.json",
         "clean_file": "cleaned_credit_applications.csv"
     },
@@ -12,7 +12,7 @@
         "duplicate_id_removed": 2,
         "clean_records": 500,
         "issues_catalogued": 15,
-        "output_columns": 34
+        "output_columns": 38
     },
     "issues": [
         {
@@ -76,31 +76,31 @@
             "fix": "Flag only — no PII fabrication"
         },
         {
-            "issue": "#10 — Missing SSN",
+            "issue": "#11 — Missing SSN",
             "count": 5,
             "dimension": "Completeness",
             "fix": "Flag only — no PII fabrication"
         },
         {
-            "issue": "#10 — Missing Processing Timestamp",
+            "issue": "#12 — Missing Processing Timestamp",
             "count": 438,
             "dimension": "Completeness",
             "fix": "timestamp_missing flag"
         },
         {
-            "issue": "#11 — Implausible Age Values",
+            "issue": "#13 — Implausible Age Values",
             "count": 0,
             "dimension": "Accuracy",
             "fix": "age_implausible flag — no PII altered"
         },
         {
-            "issue": "#12 — Implausible Timestamps",
+            "issue": "#14 — Implausible Timestamps",
             "count": 2,
             "dimension": "Timeliness",
             "fix": "timestamp_implausible flag"
         },
         {
-            "issue": "#13 — Cross-Field Violations",
+            "issue": "#15 — Cross-Field Violations",
             "count": 5,
             "dimension": "Accuracy",
             "fix": "cross_field_flag + decision_inconsistent + neg_savings + dti_reason flags"
