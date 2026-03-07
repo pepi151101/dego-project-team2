@@ -3,7 +3,7 @@
         "project": "NovaCred Credit Application Governance Audit",
         "notebook": "Data-Quality-01.ipynb",
         "audit_date": "2026-03-01",
-        "generated_at": "2026-03-07 15:00:02",
+        "generated_at": "2026-03-07 15:28:00",
         "raw_file": "raw_credit_applications.json",
         "clean_file": "cleaned_credit_applications.csv"
     },
@@ -11,8 +11,8 @@
         "raw_records": 502,
         "duplicate_id_removed": 2,
         "clean_records": 500,
-        "issues_catalogued": 15,
-        "output_columns": 38
+        "issues_catalogued": 16,
+        "output_columns": 39
     },
     "issues": [
         {
@@ -94,16 +94,22 @@
             "fix": "age_implausible flag — no PII altered"
         },
         {
-            "issue": "#14 — Implausible Timestamps",
+            "issue": "#14 — Cross-Field Violations",
+            "count": 5,
+            "dimension": "Accuracy",
+            "fix": "cross_field_flag + decision_inconsistent + neg_savings + dti_reason flags"
+        },
+        {
+            "issue": "#15 — Implausible Timestamps",
             "count": 2,
             "dimension": "Timeliness",
             "fix": "timestamp_implausible flag"
         },
         {
-            "issue": "#15 — Cross-Field Violations",
-            "count": 5,
-            "dimension": "Accuracy",
-            "fix": "cross_field_flag + decision_inconsistent + neg_savings + dti_reason flags"
+            "issue": "#16 — Stale Timestamps (> 2 yrs)",
+            "count": 59,
+            "dimension": "Timeliness",
+            "fix": "timestamp_stale flag — re-verify applicant financial data"
         }
     ]
 }
