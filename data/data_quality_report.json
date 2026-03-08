@@ -3,7 +3,7 @@
         "project": "NovaCred Credit Application Governance Audit",
         "notebook": "Data-Quality-01.ipynb",
         "audit_date": "2026-03-01",
-        "generated_at": "2026-03-08 14:20:41",
+        "generated_at": "2026-03-08 15:14:32",
         "raw_file": "raw_credit_applications.json",
         "clean_file": "cleaned_credit_applications.csv"
     },
@@ -89,7 +89,7 @@
         },
         {
             "issue": "#13 — SSN Conflict Detection",
-            "count": 5,
+            "count": 4,
             "dimension": "Accuracy",
             "fix": "ssn_conflict flag — all conflicting records flagged for governance review"
         },
