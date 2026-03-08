@@ -1,8 +1,5 @@
 # DataGovernance_Group2
 Data Governance and Ecosystem project in Nova SBE - Group 2
-hi, julius first commit in readme
-Hi, Constança first commit in readme
-
 
 Data Governance and Ecosystem project in Nova SBE — Group 2
 
@@ -109,5 +106,5 @@ Each field in the output CSV comes in up to three forms:
 |---|---|---|
 | Data Engineer | Julius Caspar | 74455 |
 | Data Scientist | Constança Branco | 71059 |
-| Governance Officer | — | - |
-| Product Lead | Constança Branco  Julius Caspar  Petra |
+| Governance Officer | Petra Ignjatovic | 72179 |
+| Product Lead | Constança Branco ; Julius Caspar ; Petra Ignjatovic |
