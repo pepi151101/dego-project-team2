@@ -50,7 +50,7 @@ project-team2/
 
 | Role | Member | Student ID |
 |---|---|---|
-| Data Engineer | — | - |
+| Data Engineer | Julius Caspar | 74455 |
 | Data Scientist | Constança Branco | 71059 |
 | Governance Officer | — | - |
-| Product Lead | Constança Branco  Julius  Petra |
+| Product Lead | Constança Branco  Julius Caspar  Petra |
