@@ -1,7 +1,8 @@
 # DataGovernance_Group2
 Data Governance and Ecosystem project in Nova SBE - Group 2
 ---
-
+PPT Link: https://docs.google.com/presentation/d/1-otgPo4Blc62Cqq4KIfp_QyEavQuMtO-/edit?usp=drive_link&ouid=102407044508552143658&rtpof=true&sd=true
+---
 ## Project Overview
 
 NovaCred is a fintech startup that uses machine learning to make credit decisions. This project audits NovaCred's credit application dataset for data quality issues, algorithmic bias, and governance gaps.
