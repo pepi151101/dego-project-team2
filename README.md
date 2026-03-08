@@ -1,7 +1,10 @@
 # DataGovernance_Group2
 Data Governance and Ecosystem project in Nova SBE - Group 2
 ---
-
+PPT Link: https://novasbe365.sharepoint.com/:p:/r/sites/DEGO-Team2/Documentos%20Partilhados/General/DEGO-%20Team%202.pptx?d=w4eb63770f41b4c46b3b87d0a02470279&csf=1&web=1&e=5FVwAO
+---
+Video Link: https://youtu.be/cWM4hDoxpkQ
+---
 ## Project Overview
 
 NovaCred is a fintech startup that uses machine learning to make credit decisions. This project audits NovaCred's credit application dataset for data quality issues, algorithmic bias, and governance gaps.
@@ -58,7 +61,7 @@ Nothing is silently overwritten. The full audit trail is always preserved.
 | 9 | Completeness | Missing `email` | 7 | Flag only (`email_missing`) — no PII fabrication |
 | 10 | Completeness | Missing `ssn` | 5 | Flag only (`ssn_missing`) — no PII fabrication |
 | 11 | Completeness | Missing `processing_timestamp` | 438 | Flag only (`timestamp_missing`) — 87.6% of dataset |
-| 12 | Accuracy | Cross-field logic violations | 5 | 4 granular flags added — no auto-correction |
+| 12 | Accuracy | Cross-field logic violations | 5 | 5 granular flags added — no auto-correction |
 | 13 | Accuracy | Conflicting SSNs across different applicants | 2 | `ssn_conflict` flag — potential fraud escalated to compliance |
 | 14 | Timeliness | Impossible timestamps (before 2020 or after audit date) | 2 | `timestamp_implausible` flag |
 | 15 | Timeliness | Stale records older than 24 months | 59 | `timestamp_stale` flag — GDPR Art. 5(1)(e) deletion required |
