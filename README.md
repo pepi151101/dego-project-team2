@@ -3,6 +3,8 @@ Data Governance and Ecosystem project in Nova SBE - Group 2
 ---
 PPT Link: https://novasbe365.sharepoint.com/:p:/r/sites/DEGO-Team2/Documentos%20Partilhados/General/DEGO-%20Team%202.pptx?d=w4eb63770f41b4c46b3b87d0a02470279&csf=1&web=1&e=5FVwAO
 ---
+Video Link: https://youtu.be/cWM4hDoxpkQ
+---
 ## Project Overview
 
 NovaCred is a fintech startup that uses machine learning to make credit decisions. This project audits NovaCred's credit application dataset for data quality issues, algorithmic bias, and governance gaps.
