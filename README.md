@@ -58,7 +58,7 @@ Nothing is silently overwritten. The full audit trail is always preserved.
 | 9 | Completeness | Missing `email` | 7 | Flag only (`email_missing`) — no PII fabrication |
 | 10 | Completeness | Missing `ssn` | 5 | Flag only (`ssn_missing`) — no PII fabrication |
 | 11 | Completeness | Missing `processing_timestamp` | 438 | Flag only (`timestamp_missing`) — 87.6% of dataset |
-| 12 | Accuracy | Cross-field logic violations | 5 | 4 granular flags added — no auto-correction |
+| 12 | Accuracy | Cross-field logic violations | 5 | 5 granular flags added — no auto-correction |
 | 13 | Accuracy | Conflicting SSNs across different applicants | 2 | `ssn_conflict` flag — potential fraud escalated to compliance |
 | 14 | Timeliness | Impossible timestamps (before 2020 or after audit date) | 2 | `timestamp_implausible` flag |
 | 15 | Timeliness | Stale records older than 24 months | 59 | `timestamp_stale` flag — GDPR Art. 5(1)(e) deletion required |
