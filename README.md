@@ -1,7 +1,7 @@
 # DataGovernance_Group2
 Data Governance and Ecosystem project in Nova SBE - Group 2
 ---
-PPT Link: https://docs.google.com/presentation/d/1-otgPo4Blc62Cqq4KIfp_QyEavQuMtO-/edit?usp=drive_link&ouid=102407044508552143658&rtpof=true&sd=true
+PPT Link: https://novasbe365.sharepoint.com/:p:/r/sites/DEGO-Team2/Documentos%20Partilhados/General/DEGO-%20Team%202.pptx?d=w4eb63770f41b4c46b3b87d0a02470279&csf=1&web=1&e=5FVwAO
 ---
 ## Project Overview
 
