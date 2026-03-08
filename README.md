@@ -22,7 +22,7 @@ project-team2/
 │   ├── 01-data-quality.ipynb    # Data quality analysis
 │   ├── 02-bias-analysis.ipynb   # Bias detection & fairness
 │   └── 03-privacy-demo.ipynb    # Privacy & GDPR compliance
-├── presentation/                # Video or link
+├── presentation/                
 └── README.md
 ```
 
