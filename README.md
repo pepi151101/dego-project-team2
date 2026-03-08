@@ -50,7 +50,7 @@ project-team2/
 
 | Role | Member |
 |---|---|
-| Data Engineer | — |
-| Data Scientist | Constança Branco |
-| Governance Officer | — |
-| Product Lead | — |
+| Data Engineer | — | - |
+| Data Scientist | Constança Branco | 71059|
+| Governance Officer | — | - |
+| Product Lead | Constança Branco  Julius  Petra |
